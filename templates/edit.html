@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Edit Result</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+
+<div class="card p-4 shadow">
+
+<h3>Edit Student Result</h3>
+
+<form method="POST">
+
+<input class="form-control mt-2" name="name" value="{{ data[1] }}">
+<input class="form-control mt-2" name="roll" value="{{ data[2] }}">
+
+<input class="form-control mt-2" name="bangla" value="{{ data[3] }}">
+<input class="form-control mt-2" name="english" value="{{ data[4] }}">
+<input class="form-control mt-2" name="math" value="{{ data[5] }}">
+<input class="form-control mt-2" name="ict" value="{{ data[6] }}">
+<input class="form-control mt-2" name="physics" value="{{ data[7] }}">
+<input class="form-control mt-2" name="chemistry" value="{{ data[8] }}">
+
+<button class="btn btn-primary mt-3">Update Result</button>
+
+</form>
+
+<a href="/history" class="btn btn-secondary mt-3">Back</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
